@@ -17,7 +17,7 @@ Application Flutter de gestion de tâches (auth locale + SQLite), architecture *
 
 ```bash
 # 1) Cloner le repo
-git clone <URL_DU_REPO>
+git clone https://github.com/sha-riyat/task_manager_app_DClic.git
 cd task_manager_app
 
 # 2) Récupérer les dépendances
