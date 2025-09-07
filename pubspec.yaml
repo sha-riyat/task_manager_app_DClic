@@ -1,0 +1,34 @@
+name: task_manager_app
+description: A simple task management application built with Flutter.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Cupertino icons are used in the built‑in Material UI widgets.
+  cupertino_icons: ^1.0.2
+  # Provider is used for state management across our features.
+  provider: ^6.1.1
+  # Sqflite provides SQLite bindings for persisting data locally.
+  sqflite: ^2.2.8+4
+  # Path helps resolve file system paths on different platforms.
+  path: ^1.9.0
+  intl: ^0.18.0
+  # Google Fonts makes it easy to use the Inter typeface across the app.
+  google_fonts: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Lints to encourage good coding practices.
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
